@@ -1,0 +1,26 @@
+# Site settings
+baseurl = "http://mtldo.xyz/"
+languageCode = "en-us"
+title = "Manuel Toledo"
+author = "Manny Toledo"
+theme = "hugo-uno"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+canonifyurls = true
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "Manny Toledo"
+  github = "mannytoledo"
+  twitter = "mtldo"
+  # email = ""
+  description = "Automation through and through."
+  # cv = "/pages/cv"
+  # discourse = "http://discourse.yoursite.com"
+  linkedin = "mannytoledo"
+  cover = "/images/background-cover.jpg"
+  # logo = "/img/logo-1.jpg"

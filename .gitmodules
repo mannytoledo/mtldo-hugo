@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:mannytoledo/mannytoledo.github.io.git
+[submodule "themes/hugo-uno-mt"]
+	path = themes/hugo-uno-mt
+	url = git@github.com:mannytoledo/hugo-uno.git
