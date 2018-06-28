@@ -4,3 +4,9 @@
 [submodule "themes/hugo-uno-mt"]
 	path = themes/hugo-uno-mt
 	url = git@github.com:mannytoledo/hugo-uno.git
+[submodule "themes/after-dark"]
+	path = themes/after-dark
+	url = git@github.com:comfusion/after-dark.git
+[submodule "themes/dimension"]
+	path = themes/dimension
+	url = https://github.com/sethmacleod/dimension.git

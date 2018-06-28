@@ -1,26 +1,27 @@
 # Site settings
-baseurl = "http://mtldo.xyz/"
+baseurl = "http://mtldo.com/"
 languageCode = "en-us"
-title = "Manuel Toledo"
+title = "Manny Toledo"
 author = "Manny Toledo"
-theme = "hugo-uno"
+theme = "after-dark"
 contentdir = "content"
 publishdir = "public"
 builddrafts = false
 canonifyurls = true
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
-[indexes]
-   category = "categories"
-   tag = "tags"
-[Params]
-  AuthorName = "Manny Toledo"
-  github = "mannytoledo"
-  twitter = "mtldo"
-  # email = ""
-  description = "Automation through and through."
-  # cv = "/pages/cv"
-  # discourse = "http://discourse.yoursite.com"
-  linkedin = "mannytoledo"
-  cover = "/images/background-cover.jpg"
-  # logo = "/img/logo-1.jpg"
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+# [[menu.main]]
+#   name = "Posts"
+#   weight = 2
+#   identifier = "post"
+#   url = "/post/"
+
+[params]
+images = [
+  "static/images/server.jpg" # Default Open Graph image for site
+]
